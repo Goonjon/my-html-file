@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	body {
+	background-color: skyblue;
+	}
+	.list-btn{
+		margin-top: 100px;
+		margin-left: 600px;
+		padding: 10px;
+		width: 100px;
+		background-color: #ff9999;
+		font-size: 150%;
+	}
+</style>
+</head>
+<body>
+
+	<h2>Show Different Images Depending on Browser Width</h2>
+	<p>Resize the browser width and the image will change at 600px and 1500px.</p>
+
+<picture>
+	  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+	  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+	  <source srcset="flowers.jpg">
+	  <img src="img_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture><br><br><br><br>
+
+	<button class="list-btn"><a href="list.html">Next</a></button>
+
+</body>
+</html>
+

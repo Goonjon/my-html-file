@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The alt Attribute</h2>
+<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains:</p>
+
+<img src="https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg" alt="Orange Fruit" width="700" height="600">
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+/* This style sets the width of all images to 100%: */
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Width/Height Attributes or Style?</h2>
+
+<p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" alt="World GIF" width="128" height="128">
+
+<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" alt="World GIF" style="width:128px;height:128px;">
+
+</body>
+</html><br><br><br>
+
+
+<html>
+<body>
+
+<h2>Floating Images</h2>
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="dreamer.gif" alt="Dreamer face" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+<img src="dreamer.gif" alt="Dreamer face" style="float:left;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</p>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+h1{
+	color: black;
+}
+.nxt-btn{
+	background-color: green;
+	border: 1px solid green;
+	color: white;
+	height: 30px;
+	width: 60px;
+}
